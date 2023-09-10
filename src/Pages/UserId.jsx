@@ -51,7 +51,11 @@ const UserId = () => {
               and ethically-raised meats, we spare no effort to ensure the
               quality of our ingredients is exceptional. What truly
               distinguishes Elevate is the exquisite culinary artistry that goes
+<<<<<<< HEAD
               into every dish. Our culinary team consists of world-className chefs
+=======
+              into every dish. Our culinary team consists of world-class chefs
+>>>>>>> 25ae726c98674c04e814a9523fa929e7c1d77df9
               who infuse creativity and passion into every creation. They not
               only prepare dishes that tantalize the taste buds but also
               transform each plate into a work of art. The presentation of our
@@ -60,7 +64,11 @@ const UserId = () => {
               menu offers a diverse selection of dishes, catering to a wide
               range of tastes and dietary preferences. Whether you're a fan of
               contemporary fusion cuisine that blends global flavors or you
+<<<<<<< HEAD
               prefer the comfort of classNameic dishes prepared with a modern twist,
+=======
+              prefer the comfort of classic dishes prepared with a modern twist,
+>>>>>>> 25ae726c98674c04e814a9523fa929e7c1d77df9
               Elevate has something to offer every palate. This commitment to
               variety ensures that our patrons can always expect a memorable and
               satisfying dining experience with us.
