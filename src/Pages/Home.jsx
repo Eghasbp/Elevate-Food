@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
+import React, { Link, useEffect, useState } from "react";
 import { useNavigate } from "react-router";
 import Navbar from "../component/Navbar";
 import ProductionHouse from "../component/ProductionHouse";
@@ -46,6 +46,10 @@ const Home = () => {
     if(!search){
 
     }
+  }
+
+  const handleReference = () => {
+    navigate('/reference')
   }
      // confused
    // Handle the search and navigate to the detail page based on the search query
@@ -117,7 +121,7 @@ const Home = () => {
               </p>
               <div className="flex">
                 <div className="">
-                  <button className="md:mt-10 mt-5 bg-primary  hover:bg-red-600 text-white font-medium rounded-xl p-2 md:p-3 ">
+                  <button onClick={handleReference} className="md:mt-10 mt-5 bg-primary  hover:bg-red-600 text-white font-medium rounded-xl p-2 md:p-3 ">
                     Get Started
                   </button>
                   <div className="flex">
@@ -223,30 +227,30 @@ const Home = () => {
 
       {/* NEW STAGE */}
       
-<footer class="shadow scale-105 md:bg-gray-800 bg-white font-poppins md:mt-[100px] mt-[800px]">
-    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div class="sm:flex sm:items-center sm:justify-between">
-            <a href="" class="flex items-center mb-4 sm:mb-0">
-                <img src="/src/assets/image/E.png" class="h-8 w-10 mr-3" alt="Flowbite Logo" />
-                <span class="self-center text-xl font-poppins font-medium whitespace-nowrap md:text-white text-black">levate</span>
+<footer className="shadow scale-105 md:bg-gray-800 bg-white font-poppins md:mt-[100px] mt-[800px]">
+    <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div className="sm:flex sm:items-center sm:justify-between">
+            <a href="" className="flex items-center mb-4 sm:mb-0">
+                <img src="/src/assets/image/E.png" className="h-8 w-10 mr-3" alt="Flowbite Logo" />
+                <span className="self-center text-xl font-poppins font-medium whitespace-nowrap md:text-white text-black">levate</span>
             </a>
-            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gra y-400">
+            <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gra y-400">
                 <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6 ">About</a>
+                    <a href="#" className="mr-4 hover:underline md:mr-6 ">About</a>
                 </li>
                 <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+                    <a href="#" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
                 </li>
                 <li>
-                    <a href="#" class="mr-4 hover:underline md:mr-6 ">Licensing</a>
+                    <a href="#" className="mr-4 hover:underline md:mr-6 ">Licensing</a>
                 </li>
                 <li>
-                    <a href="#" class="hover:underline">Contact</a>
+                    <a href="#" className="hover:underline">Contact</a>
                 </li>
             </ul>
         </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Elevate</a>. All Rights Reserved.</span>
+        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" className="hover:underline">Elevate</a>. All Rights Reserved.</span>
     </div>
 </footer>
 

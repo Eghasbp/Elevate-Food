@@ -5,6 +5,7 @@ import Register from './Pages/Register'
 import UserId from './Pages/UserId'
 import { useRoutes } from 'react-router'
 import ProtectedRoutes from './routes/ProtectedRoutes'
+import Reference from './Pages/Reference'
 
 const routes = [
   {path:'/login', element:<Login/>},
@@ -18,6 +19,11 @@ const routes = [
   {path:'/', element:
   <ProtectedRoutes>
   <Home/>
+  </ProtectedRoutes>},
+
+  {path:'/reference', element:
+  <ProtectedRoutes>
+  <Reference/>
   </ProtectedRoutes>},
  
 ]
